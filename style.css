@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  background-color: #231e37;
+  color: #e4072a;
+  height: 70px;
+  justify-content: space-around;
+  align-items: center;
+}
+ul  {
+  color: #0a8975;
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+li {
+  margin: 10px;
+}
+.section-one {
+  background-color: #231e37;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-evenly;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: #231e37;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 31%;
+  height: 400px;
+
+}
+.maintext {
+  color: #e4072a;
+  max-width: 80%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 50px;
+}
+img {
+  height: 300px;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.container {
+  display: flex;
+  flex-direction:row ;
+  justify-content: center;
+  align-items: center;
+  max-height: 550px;
+
+}
+.text {
+  color: #0a8975;
+  flex-wrap:wrap ;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  font-weight: 700;
+  width: 90%;
+  font-family: 'Courier New', Courier, monospace;
+}
+button {
+  background-color: #5facca;
+  color: #231e37;
+  padding: 5px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Impact,  'Arial Narrow Bold', sans-serif;
+  border-radius: 10px;
+  text-align: center;
+  border: 0;
+  margin-top: 15px; 
+}
+.section-two {
+  background-color: #f9ecd8;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+}
+.information {
+  font-size: 50px;
+  font-weight: 500;
+  color: #8e191f;
+  font-family: Impact,  'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+.cardscontainer {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.card {
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+img{
+  border-radius: 10px;
+  border: 5px;
+  border-style: groove;
+  border-color: #d2a782;
+}
+.cardstext {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  color: #285642;
+  font-weight: 550;
+}
+.subtext {
+  font-size: 26px;
+  color: #5a47a7;
+  font-family: 'Courier New', Courier, monospace;
+  max-width: 300px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+.container-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+.section-three {
+  background-color: #285642;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.quote {
+  text-align: start;
+  max-width: 1000px;
+  font-size: 26px;
+  color: #c69e54;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-style: oblique;
+}
+.quote.name {
+  text-align: end;
+}
+.section-four {
+  background-color: #f9ecd8;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: space-evenly;
+  align-content: center;  
+  background-color: #5facca;
+  color: #231e37;
+  width: 80%;
+  height: 40%;
+  border-radius: 20px;
+}
+.action {
+  font-size: 36px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+}
+.calltoaction {
+  font-size: 25px;
+}
+button.signup2 {
+  background-color: #6ac1e3;
+  color: #231e37;
+  padding: 0px 60px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Impact,  'Arial Narrow Bold', sans-serif;
+  border-radius: 10px;
+  text-align: center;
+  border: 3px solid white;
+  margin-top: 15px; 
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #231e37;
+  height: 50px;
+  color: #e4072a;
+  font-size: 26px;
+  text-align: center;
+}
